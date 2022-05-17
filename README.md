@@ -1,1 +1,3 @@
 # HTTP-Proxy-Server
+When a browser connects the the server over a TCP connection seeking a file, if the file exists within the server it will send it to the browser, otherwise, it will retrieve the file from the web, store it, and send it back to the client. The server also keeps track of all logs and the files requested and the number of
+bytes read from the web. The log data is displayed on the server's terminal, and the data is also stored in a csv file on the server's end. The data can also be displayed on the clients end be requesting "proxy_log?" and "proxy_log?" eg IPv4/proxy_usage? , IPv4/proxy_log?
